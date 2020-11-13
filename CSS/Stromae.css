@@ -1,0 +1,70 @@
+body {
+    background-image: linear-gradient(to bottom right, #ff47b7,#ffc2e7, #ebeb34);
+     background-repeat: no-repeat;
+   text-align: center;
+ }
+ 
+ nav{
+ margin-top: 20px;
+ display: center;
+ }
+ 
+ #label-name{
+   padding-left:0px;
+   padding-right:200px;
+ }
+ 
+ #nav-end{
+   padding-left:30px;
+   padding-right:30px;
+ }
+ 
+ #name{
+   color: #ffd6ef;
+ }
+ 
+ h1{
+   display: block;
+   text-align: center;
+ }
+ 
+ .banner {
+   width: 95%;
+   background-image: url("https://lastfm.freetls.fastly.net/i/u/ar0/71ac8fa5070ab565a72f96505e4f2f10.jpg");
+   height: 400px;
+   background-color: pink;
+   background-size: cover;
+   background-position: 50% 0%;
+   background-repeat: no-repeat;
+   margin: auto;
+ }
+ 
+ p, h1, h2, a {
+   color: white;
+ }
+ 
+ ul li {
+   text-align: center;
+   display: inline-block; 
+   padding-left:30px;
+ }
+ 
+ a:hover {
+   color: yellow;
+ }
+ 
+ .socials{
+   display: flex;
+   flex-direction: row;
+   justify-content: flex-end;
+   align-items: center;
+   margin-right: 30px;
+ }
+ 
+ footer{
+   background-color: gray;
+   display: flex;
+   height: 20px;
+   padding-left: 10px;
+   align-items: center;
+ }
