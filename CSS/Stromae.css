@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap');
+
 body {
     background-image: linear-gradient(to bottom right, #ff47b7,#ffc2e7, #ebeb34);
      background-repeat: no-repeat;
@@ -9,11 +11,21 @@ body {
  display: center;
  }
  
- #label-name{
-   padding-left:0px;
-   padding-right:200px;
- }
  
+/* ul li a{
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    font-size: 2em;
+} */
+
+#label-name{
+    padding-left:0px;
+    padding-right:200px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-size: 3em;
+  }
+
  #nav-end{
    padding-left:30px;
    padding-right:30px;
@@ -31,7 +43,7 @@ body {
  .banner {
    width: 95%;
    background-image: url("https://lastfm.freetls.fastly.net/i/u/ar0/71ac8fa5070ab565a72f96505e4f2f10.jpg");
-   height: 400px;
+   height: 360px;
    background-color: pink;
    background-size: cover;
    background-position: 50% 0%;
@@ -43,10 +55,24 @@ body {
    color: white;
  }
  
+h2{
+    color:black;
+    text-transform: uppercase;
+    font-size: 2em;
+    font-family: "Roboto", sans-serif;
+    font-weight: 900;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: rgb(255, 255, 255);
+}
+
  ul li {
    text-align: center;
    display: inline-block; 
    padding-left:30px;
+ }
+
+ a{
+     text-decoration: none;
  }
  
  a:hover {
