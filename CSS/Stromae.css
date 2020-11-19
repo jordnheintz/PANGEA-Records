@@ -5,6 +5,7 @@ body {
     background-image: linear-gradient(to bottom right, #ff47b7,#ffc2e7, #ebeb34);
      background-repeat: no-repeat;
    text-align: center;
+   margin: 0;
  }
  
 /* Navigation */
@@ -155,7 +156,6 @@ p{
  
 footer{
   background-color: grey;
-  position: absolute;
   font-size: 13.5px;
   height: 20px;
   width: 100%;
