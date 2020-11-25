@@ -6,10 +6,11 @@
         <title>Contact</title>
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" href="styles.css">
+        <link rel="stylesheet" href="../CSS/Contact-Page.css">
+        <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
     </head>
 
-    <body>
+    <body class="c-body">
         <header>
             <nav>
                 <ul>
@@ -22,9 +23,35 @@
             </nav>
         </header>
 
+        <h1 class="heading">CONTACT US</h1>
+        <div class = "container">
+        <form action = "Contact-Page.html" method="POST">
+            
+            <input type="email" id="email" name="user_email" placeholder="Email Address">  
+            <br>
+            <select id="issue" name="selection" placeholder = "What's this about?">
+                <option value="" disabled selected hidden>What's this about?</option>
+            <option value="option1">Lorem Ipsum</option>   
+            <option value="option2">Lorem Ipsum</option> 
+            <option value="option3">Lorem Ipsum</option> 
+            <option value="option4">Lorem Ipsum</option> 
+            <option value="option5">Lorem Ipsum</option>  
+            </select>
+            <br>
+            <textarea name="text" id="text" placeholder="Go ahead, we're listening..."></textarea>
+            <br>
+            <script>
+                function getInput() {
+                var userInput = document.getElementById('email').value;
+                if (userInput.includes("@")){
+                    alert("the form has been submitted");
+                }
 
-
-
+                    } 
+            </script>
+            <button class = "button" type="submit" onclick="getInput()">Submit</button>
+        </form>
+        </div>
 
 
 

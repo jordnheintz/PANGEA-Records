@@ -1,0 +1,133 @@
+.navbar {
+    background-color:black ;
+    overflow: hidden;
+    position: fixed;
+    width: 100%;
+  }
+  .navbar a{
+      color: rgb(102, 99, 99);
+      float: left;
+      display: block;
+      text-align: center;
+      padding: 14px;
+  }
+  
+  
+  /* CSS code for the Monetochka file */
+  .center{
+      display: block;
+      margin-left: auto;
+      margin-right: auto; 
+      width: 50%;
+      margin-bottom: 50px;
+  }
+   
+  .headers{
+      text-align: center;
+      font-size: 3em;
+      color: white;
+      font-family: "Roboto", "sans-serif";
+  }
+   
+  .bio{
+      color: white;
+      font-family: "Roboto", "sans-serif";
+      font-weight: bold;
+      font-size: 1.85em;
+      position: relative;
+      top: 75px;
+     
+     
+   
+  }
+   
+   
+  .body{
+   background-color: rgb(1,1,1);
+  }
+   
+  .resize{
+  width: 46.7%;
+  height: auto;
+  display: inline;
+  margin-right: 100px;
+  
+  }
+   
+   
+  .container{
+  display: flex;
+  margin-bottom: 30px;
+  justify-content: space-between;
+  
+  }
+   
+  .list{
+      color: white;
+      font-family: "Roboto", "sans-serif";
+      font-weight: bold;
+      position: relative;
+      top: 10px;
+      font-size: 1.75em;
+      width: 58.9%;
+      
+  }
+  
+  .list2{
+      color: white;
+      font-family: "Roboto", "sans-serif";
+      font-weight: bold;
+      
+      font-size: 1.75em;
+      
+  }
+   
+  .second-container{
+      display: flex;
+        
+      margin-bottom: 30px;
+  
+      }
+   
+      .video{
+          width: 56.4%;
+          margin-left: 100px;
+      }
+   
+      .admire{
+          color: white;
+          font-family: "Roboto", "sans-serif";
+          font-weight: bold;
+       
+          font-size: 1.75em;
+        
+      }
+   
+      .accomplish{
+          color: white;
+          position: relative;
+          left: 40px;
+          margin-bottom: 0px;
+          }
+   
+      .image-3{
+          width: 163%;
+          height: auto;
+          display: inline;
+         
+          margin-right: 100px;
+      }
+   
+   
+      .third-container{
+          display: flex;
+      
+          margin-bottom: 30px;
+          justify-content: space-between;
+          }
+  
+          .u-list{
+          margin-top: 0px;
+          }
+  
+  
