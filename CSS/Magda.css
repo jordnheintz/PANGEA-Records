@@ -2,7 +2,7 @@
 
 /* Background */
 body {
-    background-image: linear-gradient(to bottom right, #ff47b7,#ffc2e7, #ebeb34);
+    background-image: linear-gradient(to bottom right, #eb4034,#ff954f, #ebeb34);
      background-repeat: no-repeat;
    text-align: center;
    margin: 0;
@@ -46,12 +46,12 @@ a{
 }
 
 a:hover {
-  color: yellow;
+  color: #ffff00;
 }
 
 /* "This is" section */
 #name{
-  color: #ffd6ef;
+  color: #ff0000;
   margin-bottom: 15px;
   font-style: italic;
 }
@@ -67,11 +67,11 @@ h1{
  
 .banner {
   width: 95%;
-   background-image: url("https://lastfm.freetls.fastly.net/i/u/ar0/71ac8fa5070ab565a72f96505e4f2f10.jpg");
+   background-image: url("https://images.squarespace-cdn.com/content/v1/5924528229687f6ad518c34a/1525886743643-WDNO4KWLQ92O3OVWSSLJ/ke17ZwdGBToddI8pDm48kHH1vrl4tNg0MrHT1mkldKR7gQa3H78H3Y0txjaiv_0fDoOvxcdMmMKkDsyUqMSsMWxHk725yiiHCCLfrh8O1z4YTzHvnKhyp6Da-NYroOW3ZGjoBKy3azqku80C789l0mxU0godxi02JM9uVemPLqwKxAIL8MZAQWJFYmQPasHuM1G8uU7raFtTvlfsgc8ryw/Copy+of+Glasses+in+Yellow_photo+credit+Shervin+Lainez.JPG?format=1500w");
    height: 360px;
-   background-color: pink;
+   background-color: red;
    background-size: cover;
-   background-position: 50% 0%;
+   background-position: 50% 27%;
    background-repeat: no-repeat;
    margin: auto;
 }
@@ -265,7 +265,7 @@ footer{
     
     .banner {
       width: 95%;
-       background-image: url("https://lastfm.freetls.fastly.net/i/u/ar0/71ac8fa5070ab565a72f96505e4f2f10.jpg");
+       background-image: url("https://images.squarespace-cdn.com/content/v1/5924528229687f6ad518c34a/1525886743643-WDNO4KWLQ92O3OVWSSLJ/ke17ZwdGBToddI8pDm48kHH1vrl4tNg0MrHT1mkldKR7gQa3H78H3Y0txjaiv_0fDoOvxcdMmMKkDsyUqMSsMWxHk725yiiHCCLfrh8O1z4YTzHvnKhyp6Da-NYroOW3ZGjoBKy3azqku80C789l0mxU0godxi02JM9uVemPLqwKxAIL8MZAQWJFYmQPasHuM1G8uU7raFtTvlfsgc8ryw/Copy+of+Glasses+in+Yellow_photo+credit+Shervin+Lainez.JPG?format=1500w");
        height: 400px;
        background-color: pink;
        background-size: cover;
