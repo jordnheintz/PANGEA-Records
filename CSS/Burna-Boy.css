@@ -1,53 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap');
 
-* {
-  box-sizing: border-box;
-  margin:0; 
-  padding: 0; 
-  
-}
-html{
-  background-color: #00DBDE;
-  background-image: linear-gradient(90deg, #00DBDE 0%, #FC00FF 100%);
-  
-  background-repeat: no-repeat;
-}
-#main_text{
-    text-align: center;
-}
-  .h1{
-  font-family: Roboto;
-  font-style: normal;
-  font-weight: bold;
-  font-size: 4rem;
-  padding-top: 3rem;
-  
-  color: white; 
-  
+/* Background */
+body {
+    background-image: linear-gradient(to bottom right, #168312,rgb(253, 101, 0), #af0a0a);
+     background-repeat: no-repeat;
+   text-align: center;
+   margin: 0;
  }
- .h2{
-  font-family: Roboto;
-  font-style: normal;
-  font-weight: bold;
-  font-size: 3em;
-  margin-bottom: 0;
-  color:#2b29ae; 
-  -webkit-text-stroke-width: 0px; 
-  -webkit-text-stroke-color: none;
- }
- .image {
-   display: flex; 
-   justify-content: center;
-   margin: 2% 14%;
-   padding: 11% 20% ; 
-   border: 2px solid white; 
-  background-image: url("https://cdn3.pitchfork.com/longform/976/badbunnyheader.jpg"); 
-  /* border: 2px solid white;  */
-  background-repeat: no-repeat;
-  background-position: 100% 20% ; 
-  background-size: cover; 
-}
-
+ 
 /* Navigation */
 nav{
  display: center;
@@ -76,7 +36,6 @@ nav{
 }
 
 ul li {
-  margin-top: 5%; 
   text-align: center;
   display: inline-block; 
   padding-left:30px;
@@ -87,22 +46,12 @@ a{
 }
 
 a:hover {
-  color: yellow;
-}
-a:visited {
-  color: none; 
+  color: #08571c;
 }
 
-footer{
-  background-color: grey;
-  font-size: 13.5px;
-  height: 20px;
-  width: 100%;
-  text-align: left;
-}
-
+/* "This is" section */
 #name{
-  color: #ffd6ef;
+  color: #3a7916;
   margin-bottom: 15px;
   font-style: italic;
 }
@@ -118,11 +67,11 @@ h1{
  
 .banner {
   width: 95%;
-   background-image: url("https://cdn3.pitchfork.com/longform/976/badbunnyheader.jpg");
+   background-image: url("https://ab-cb.com/wp-content/uploads/2020/10/Biograpy-of-Burna-Boy.jpg");
    height: 360px;
-   background-color: pink;
+   background-color: rgb(13, 99, 5);
    background-size: cover;
-   background-position: 50% 0%;
+   background-position: 50% 27%;
    background-repeat: no-repeat;
    margin: auto;
 }
@@ -133,19 +82,18 @@ p, h1, h2, a {
 }
  
 h2{
-    color:black;
+    color:white;
     text-transform: uppercase;
     font-size: 3em;
     font-family: "Roboto", sans-serif;
     font-weight: 900;
-    color: #bb3f92;
     -webkit-text-stroke-width: 1px;
-    -webkit-text-stroke-color: rgb(255, 255, 255);
+    -webkit-text-stroke-color: rgb(0, 0, 0);
 }
 
 p{
   font-family: "Roboto", sans-serif;
-  font-weight: 500;
+  font-weight: 200;
 }
 
 .section{
@@ -168,38 +116,43 @@ p{
 }
 
 .para{
-  font-size: 1.25em;
+  font-size: 1.5em;
 }
 
 /* Gallery */
-.main_gallery {
 
-margin-top: 4%; 
-
-}
 .gallery{
-  
-  padding: 4% 8%; 
-  display: grid;
-  grid-template-columns:repeat(auto-fit, minmax(350px, 1fr));
-  grid-gap: .5rem;
-  
+  padding-right: 50px;
+  padding-left: 50px;
 }
+.gallery ul {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0;
+}
+
+.gallery li {
+  height: 40vh;
+  flex-grow: 1;
+  padding: 0;
+}
+
 .gallery img {
-  width: 100%;
-  height: 20rem;
-  border: 1px solid white; 
-  
+  max-height: 100%;
+  min-width: 100%;
+  object-fit: cover;
+  vertical-align: bottom;
+  padding: 0;
 }
+
 /* Social Media and Footer */
-  .socials {
+.socials{
    display: flex;
    flex-direction: row;
    justify-content: flex-end;
    align-items: center;
    margin-right: 30px;
-} 
- 
+}
  
 footer{
   background-color: grey;
@@ -209,12 +162,43 @@ footer{
   text-align: left;
 }
 
-.video{
-  width:560px;
-  height:315px;
-}
-header{
-  margin-bottom: 5%;
+@media only screen and (max-width: 1000px){
+  
+  h2{
+    font-size: 40px;
+  }
+  
+  .para{
+    font-size: 20px;
+  }
+
+  .video{
+    width: 400px;
+    height: 340px;
+  }
+
+  .section{
+  display: inline-flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-evenly;
+  margin: 30px;
+  margin-bottom: 0px;
+  }
+
+  #label-name{
+    padding-left: 10px;
+  } 
+  
+  #nav-end{
+    padding-right: 10px;
+  }
+
+  .text{
+    margin-top: 0px;
+    padding-bottom: 20px;
+  }
+
 }
 
 @media only screen and (max-width: 700px){
@@ -253,16 +237,6 @@ header{
   margin: 30px;
   margin-bottom: 0px;
   }
-  
-  .gallery img {
-    width: 100%;
-    height: 13rem;
-    border: 1px solid white; 
-  }
-    .gallery{
-      padding: 4% 4%; 
-      
-    }
 
 }
 
@@ -291,7 +265,7 @@ header{
     
     .banner {
       width: 95%;
-       background-image: url("https://cdn3.pitchfork.com/longform/976/badbunnyheader.jpg");
+       background-image: url("https://images.squarespace-cdn.com/content/v1/5924528229687f6ad518c34a/1525886743643-WDNO4KWLQ92O3OVWSSLJ/ke17ZwdGBToddI8pDm48kHH1vrl4tNg0MrHT1mkldKR7gQa3H78H3Y0txjaiv_0fDoOvxcdMmMKkDsyUqMSsMWxHk725yiiHCCLfrh8O1z4YTzHvnKhyp6Da-NYroOW3ZGjoBKy3azqku80C789l0mxU0godxi02JM9uVemPLqwKxAIL8MZAQWJFYmQPasHuM1G8uU7raFtTvlfsgc8ryw/Copy+of+Glasses+in+Yellow_photo+credit+Shervin+Lainez.JPG?format=1500w");
        height: 400px;
        background-color: pink;
        background-size: cover;
@@ -321,14 +295,6 @@ header{
     margin: 20px;
     margin-bottom: 0px;
     }
-    .gallery img {
-      width: 100%;
-      height: 13rem;
-      border: 1px solid white; 
-    }
-      .gallery{
-        padding: 4% 4%; 
-        
-      }
+   
 
   }

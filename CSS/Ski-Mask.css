@@ -7,9 +7,7 @@
   
 }
 html{
-  background-color: #00DBDE;
-  background-image: linear-gradient(90deg, #00DBDE 0%, #FC00FF 100%);
-  
+  background: linear-gradient(177deg, rgba(2,0,36,1) 0%, rgba(145,67,138,1) 84%);
   background-repeat: no-repeat;
 }
 #main_text{
@@ -31,7 +29,7 @@ html{
   font-weight: bold;
   font-size: 3em;
   margin-bottom: 0;
-  color:#2b29ae; 
+  color:#B551D9; 
   -webkit-text-stroke-width: 0px; 
   -webkit-text-stroke-color: none;
  }
@@ -40,8 +38,7 @@ html{
    justify-content: center;
    margin: 2% 14%;
    padding: 11% 20% ; 
-   border: 2px solid white; 
-  background-image: url("https://cdn3.pitchfork.com/longform/976/badbunnyheader.jpg"); 
+  background-image: url(https://static.billboard.com/files/media/ski-mask-2018-cr-Universal-Music-Group-billboard-1548-compressed.jpg); 
   /* border: 2px solid white;  */
   background-repeat: no-repeat;
   background-position: 100% 20% ; 
@@ -118,7 +115,7 @@ h1{
  
 .banner {
   width: 95%;
-   background-image: url("https://cdn3.pitchfork.com/longform/976/badbunnyheader.jpg");
+   background-image: url("https://lastfm.freetls.fastly.net/i/u/ar0/71ac8fa5070ab565a72f96505e4f2f10.jpg");
    height: 360px;
    background-color: pink;
    background-size: cover;
@@ -138,7 +135,7 @@ h2{
     font-size: 3em;
     font-family: "Roboto", sans-serif;
     font-weight: 900;
-    color: #bb3f92;
+    color: #8222a5;
     -webkit-text-stroke-width: 1px;
     -webkit-text-stroke-color: rgb(255, 255, 255);
 }
@@ -291,7 +288,7 @@ header{
     
     .banner {
       width: 95%;
-       background-image: url("https://cdn3.pitchfork.com/longform/976/badbunnyheader.jpg");
+       background-image: url("https://lastfm.freetls.fastly.net/i/u/ar0/71ac8fa5070ab565a72f96505e4f2f10.jpg");
        height: 400px;
        background-color: pink;
        background-size: cover;
