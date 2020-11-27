@@ -6,29 +6,35 @@
         <title>Sign In</title>
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" href="styles.css">
+        <link rel="stylesheet" href="../CSS/Login.css">
     </head>
 
     <body>
 
-        <div>
+        <!-- This is the Back to Previous Page Button  -->
+
+        <div class="back">
             <a href="../Landing-Page.html">Back to Previous Page</a>
         </div>
 
-        <h1>LOG INTO PANGEA RECORDS</h1>
+        <!-- This is the Login Code -->
+
+        <h1 class="heading">LOG INTO PANGEA RECORDS</h1>
 
             <input type="text" placeholder="Username" name="" value=""> <br>
 
             <input type="password" placeholder="Password" name="" value=""> <br>
 
-            <a href="../Landing-Page.html"><button type="submit">Login</button></a>
+            <a class="Button" href="../Landing-Page.html"><button type="submit">Login</button></a>
             
+        <!-- This is the Nav Help Bar -->
+
                 <header>
                     <nav>
                         <ul>
                             <li><a href="#">Create an Account</a></li>
                             <li><a href="#">Recover Account</a></li>
-                            <li><a href="#">Sign in with Google</a></li>
+                            <li><a target="_blank" href="https://accounts.google.com/signin/v2/identifier?flowName=GlifWebSignIn&flowEntry=ServiceLogin">Sign in with Google</a></li>
                         </ul>
                     </nav>
                 </header>

@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap');
+
+/* Background Color, Font, and Text-Align */
+
+body {
+    background-color: #232323;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+}
+
+ /* Back to Previous Page CSS */
+.back {
+    text-align: left;
+}
+
+
+
+.heading{
+    text-align: center;
+    font-size: 4em;
+    margin-bottom: 15px;
+    margin-top: 20%;
+    color: white;
+    position: relative;
+    right: 7px;
+    bottom: 55px;
+}
+
+li {
+    display: inline;
+    padding: 0 12px;
+    border-right: solid 1px;
+}
