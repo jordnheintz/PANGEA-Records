@@ -141,7 +141,6 @@ p{
 .line {
     display: inline;
     padding: 0 12px;
-    border-right: solid 1px;
 }
   
 footer{
@@ -151,44 +150,3 @@ footer{
     width: 100%;
     text-align: left;
 }
-
-@media only screen and (max-width: 1000px){
-
-h2{
-    font-size: 40px;
-}
-    
-.Video-Description{
-    font-size: 20px;
-}
-  
-.video{
-    width: 400px;
-    height: 340px;
-}
-  
-.section{
-    display: inline-flex;
-    flex-wrap: wrap;
-    flex-direction: row;
-    justify-content: space-evenly;
-    margin: 30px;
-    margin-bottom: 0px;
-}
-  
-#label-name{
-padding-left: 10px;
-} 
-    
-#nav-end{
-    padding-right: 10px;
-}
-  
-.text{
-    margin-top: 0px;
-    padding-bottom: 20px;
-}
-
-}
-
-  
