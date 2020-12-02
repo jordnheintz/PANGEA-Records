@@ -19,7 +19,6 @@ html{
   font-weight: bold;
   font-size: 4rem;
   padding-top: 3rem;
-  
   color: white; 
   
  }
@@ -33,13 +32,12 @@ html{
   -webkit-text-stroke-width: 0px; 
   -webkit-text-stroke-color: none;
  }
- .image {
-   display: flex; 
+ .banner {
+  display: flex; 
    justify-content: center;
    margin: 2% 14%;
    padding: 11% 20% ; 
-  background-image: url(https://static.billboard.com/files/media/ski-mask-2018-cr-Universal-Music-Group-billboard-1548-compressed.jpg); 
-  /* border: 2px solid white;  */
+  background-image: url(https://static.billboard.com/files/media/ski-mask-2018-cr-Universal-Music-Group-billboard-1548-compressed.jpg);  
   background-repeat: no-repeat;
   background-position: 100% 20% ; 
   background-size: cover; 
@@ -113,16 +111,6 @@ h1{
   margin: 0;
 }
  
-.banner {
-  width: 95%;
-   background-image: url("https://lastfm.freetls.fastly.net/i/u/ar0/71ac8fa5070ab565a72f96505e4f2f10.jpg");
-   height: 360px;
-   background-color: pink;
-   background-size: cover;
-   background-position: 50% 0%;
-   background-repeat: no-repeat;
-   margin: auto;
-}
  
 /* Paragraphs */
 p, h1, h2, a {
@@ -138,6 +126,7 @@ h2{
     color: #8222a5;
     -webkit-text-stroke-width: 1px;
     -webkit-text-stroke-color: rgb(255, 255, 255);
+    
 }
 
 p{
@@ -287,14 +276,14 @@ header{
     }
     
     .banner {
-      width: 95%;
-       background-image: url("https://lastfm.freetls.fastly.net/i/u/ar0/71ac8fa5070ab565a72f96505e4f2f10.jpg");
-       height: 400px;
-       background-color: pink;
-       background-size: cover;
-       background-position: 50% 0%;
-       background-repeat: no-repeat;
-       margin: auto;
+      margin: 2% 8%; 
+    padding: 11% 30% ; 
+    border: 2px solid white; 
+    background-image: url("https://static.billboard.com/files/media/ski-mask-2018-cr-Universal-Music-Group-billboard-1548-compressed.jpg"); 
+     /* border: 2px solid white;  */
+    background-repeat: no-repeat;
+    background-position: 100% 20% ; 
+    background-size: cover; 
     }
 
     h2{
