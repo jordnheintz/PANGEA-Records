@@ -275,15 +275,15 @@ header{
       margin: 0;
     }
     
-    .banner {
-      margin: 2% 8%; 
-    padding: 11% 30% ; 
-    border: 2px solid white; 
+    .banner { 
     background-image: url("https://static.billboard.com/files/media/ski-mask-2018-cr-Universal-Music-Group-billboard-1548-compressed.jpg"); 
-     /* border: 2px solid white;  */
-    background-repeat: no-repeat;
-    background-position: 100% 20% ; 
-    background-size: cover; 
+     width: 95%;
+     height: 400px;
+     background-color: pink;
+     background-size: cover;
+     background-position: 50% 0%;
+     background-repeat: no-repeat;
+     margin: auto;
     }
 
     h2{
