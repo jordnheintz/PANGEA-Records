@@ -1,0 +1,300 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap');
+
+/* Background */
+body {
+    background-image: linear-gradient(to bottom right, #880404,rgb(31, 94, 1), #e9981e);
+     background-repeat: no-repeat;
+   text-align: center;
+   margin: 0;
+ }
+ 
+/* Navigation */
+nav{
+ display: center;
+ font-family: "Roboto", sans-serif;
+ font-weight: 300;
+ font-size: 2em;
+}
+
+#label-name{
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-size: 3em;
+    margin-top: 22px;
+    margin-bottom: 16px;
+}
+
+#nav-end{
+   padding-left:30px;
+   padding-right:30px;
+}
+
+.navContain{
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+}
+
+ul li {
+  text-align: center;
+  display: inline-block; 
+  padding-left:30px;
+}
+
+a{
+  text-decoration: none;
+}
+
+a:hover {
+  color:  #880404;
+}
+
+/* "This is" section */
+#name{
+  color: #880404;
+  margin-bottom: 15px;
+  font-style: italic;
+}
+ 
+h1{
+  display: block;
+  text-align: center;
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  font-size: 3em;
+  margin: 0;
+}
+ 
+.banner {
+  width: 95%;
+   background-image: url("https://thevinylfactory.com/wp-content/uploads/2016/10/Fela-Kuti-2.png");
+   height: 400px;
+   background-color: rgb(13, 99, 5);
+   background-size: cover;
+   background-position: 50% 0%;
+   background-repeat: no-repeat;
+   margin: auto;
+}
+ 
+/* Paragraphs */
+p, h1, h2, a {
+   color: white;
+}
+ 
+h2{
+    color:white;
+    text-transform: uppercase;
+    font-size: 3em;
+    font-family: "Roboto", sans-serif;
+    font-weight: 900;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: rgb(0, 0, 0);
+}
+
+p{
+  font-family: "Roboto", sans-serif;
+  font-weight: 200;
+}
+
+.section{
+  display: inline-flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  margin: 30px;
+  margin-bottom: 0px;
+}
+
+.text{
+  text-align: left;
+  padding-right: 30px;
+  margin-top: 0px;
+}
+
+.textTwo{
+  text-align: right;
+  padding-left: 30px;
+}
+
+.para{
+  font-size: 1.5em;
+}
+
+/* Gallery */
+
+.gallery{
+  padding-right: 50px;
+  padding-left: 50px;
+}
+.gallery ul {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0;
+}
+
+.gallery li {
+  height: 40vh;
+  flex-grow: 1;
+  padding: 0;
+}
+
+.gallery img {
+  max-height: 100%;
+  min-width: 100%;
+  object-fit: cover;
+  vertical-align: bottom;
+  padding: 0;
+}
+
+/* Social Media and Footer */
+.socials{
+   display: flex;
+   flex-direction: row;
+   justify-content: flex-end;
+   align-items: center;
+   margin-right: 30px;
+}
+ 
+footer{
+  background-color: grey;
+  font-size: 13.5px;
+  height: 20px;
+  width: 100%;
+  text-align: left;
+}
+
+@media only screen and (max-width: 1000px){
+  
+  h2{
+    font-size: 40px;
+  }
+  
+  .para{
+    font-size: 20px;
+  }
+
+  .video{
+    width: 400px;
+    height: 340px;
+  }
+
+  .section{
+  display: inline-flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-evenly;
+  margin: 30px;
+  margin-bottom: 0px;
+  }
+
+  #label-name{
+    padding-left: 10px;
+  } 
+  
+  #nav-end{
+    padding-right: 10px;
+  }
+
+  .text{
+    margin-top: 0px;
+    padding-bottom: 20px;
+  }
+
+}
+
+@media only screen and (max-width: 700px){
+  
+  #label-name{
+    padding-left: 10px;
+  } 
+  
+  #nav-end{
+    padding-right: 10px;
+  }
+
+  .text{
+    margin-top: 0px;
+    padding-bottom: 20px;
+  }
+
+  h2{
+    font-size: 40px;
+  }
+  
+  .para{
+    font-size: 20px;
+  }
+
+  .video{
+    width: 300px;
+    height: 250px;
+  }
+
+  .section{
+  display: inline-flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-evenly;
+  margin: 30px;
+  margin-bottom: 0px;
+  }
+
+}
+
+  @media only screen and (max-width: 500px){
+  
+    #label-name{
+      padding-left: 10px;
+      margin-top: 40px;
+    } 
+    
+    #nav-end{
+      padding-right: 10px;
+    }
+  
+    .text{
+      margin-top: 0px;
+      padding-bottom: 20px;
+    }
+
+    .nav{
+      display: flex;
+      flex-wrap: wrap;
+      font-size: 20px;
+      margin: 0;
+    }
+    
+    .banner {
+      width: 95%;
+       background-image: url("https://images.squarespace-cdn.com/content/v1/5924528229687f6ad518c34a/1525886743643-WDNO4KWLQ92O3OVWSSLJ/ke17ZwdGBToddI8pDm48kHH1vrl4tNg0MrHT1mkldKR7gQa3H78H3Y0txjaiv_0fDoOvxcdMmMKkDsyUqMSsMWxHk725yiiHCCLfrh8O1z4YTzHvnKhyp6Da-NYroOW3ZGjoBKy3azqku80C789l0mxU0godxi02JM9uVemPLqwKxAIL8MZAQWJFYmQPasHuM1G8uU7raFtTvlfsgc8ryw/Copy+of+Glasses+in+Yellow_photo+credit+Shervin+Lainez.JPG?format=1500w");
+       height: 400px;
+       background-color: pink;
+       background-size: cover;
+       background-position: 50% 0%;
+       background-repeat: no-repeat;
+       margin: auto;
+    }
+
+    h2{
+      font-size: 30px;
+    }
+    
+    .para{
+      font-size: 18px;
+    }
+  
+    .video{
+      width: 240px;
+      height: 200px;
+    }
+  
+    .section{
+    display: inline-flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin: 20px;
+    margin-bottom: 0px;
+    }
+   
+
+  }
