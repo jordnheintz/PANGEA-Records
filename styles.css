@@ -1,22 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap');
+
+*{
+  box-sizing: border-box;
+}
+
 body{
   margin: 0;
   font-family:sans-serif ;
   background-color:black;
 }
-*{
-  box-sizing: border-box;
 
-}
 .container{
   max-width: 1140px;
   background-color:black;
   height: auto;
-  margin: 40px auto ;
+  margin: 0px auto ;
+  margin-bottom: 20px;
   padding: 20px;
 }
-.clear{
-  clear: both;
-}
+
+/* Navigation */
 nav{
   display: center;
   font-family: "Roboto", sans-serif;
@@ -25,12 +28,11 @@ nav{
  }
  
  #label-name{
-     font-family: "Roboto", sans-serif;
-     font-weight: 700;
-     font-size: 3em;
-     margin-top: 22px;
-     margin-bottom: 16px;
-     
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-size: 3em;
+    margin-top: 22px;
+    margin-bottom: 16px;
  }
  
  #nav-end{
@@ -52,40 +54,119 @@ nav{
  
  a{
    text-decoration: none;
+   color: white;
  }
  
  a:hover {
-   color: rgb(129, 129, 129);
+   color: yellow;
  }
+
+ /* ____________________________ */
+
+ .musicFrom{
+  font-family: "Roboto", sans-serif;
+  display: inline-block;
+}
+
+ .every{
+  color:black;
+  font-size: 3em;
+  font-family: "Roboto", sans-serif;
+  font-weight: 900;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: rgb(255, 255, 255);
+  padding: 0px;
+  padding-left: 10px;
+  margin: 0px;
+  display: inline-block;
+ }
+
+ .background{
+  font-family: "Roboto", sans-serif;
+  display: inline-block;
+  padding-bottom: 20px;
+}
+
+.descOne{
+  font-family: "Roboto", sans-serif;
+  margin-bottom: 20px;
+}
+ 
 header{
   float: left;
   width: 100%;
   background-color: rgb(15, 14, 14);
   text-align: center;
   padding: 100px 20px;
- 
 }
+
 h1{
   font-size: 40px;
   margin: 0;
   color: white;
-  
 }
+
 h2,p{
+  font-family: "Roboto", sans-serif;
   font-size: 20px;
   margin: 0;
   color: white;
   text-align: left;
 }
 
+.box1{
+  background-image: url("https://static.billboard.com/files/media/ski-mask-2018-cr-Universal-Music-Group-billboard-1548-compressed.jpg");
+  height: 300px;
+  background-color: pink;
+  background-size: cover;
+  background-position: 50% 0%;
+  background-repeat: no-repeat;
+  margin: auto;
+}
+
+.box2{
+  background-image: url("https://www.wmagazine.com/wp-content/uploads/2019/03/08/5c8295a3648d9b2d306e96bf_Kali-Uchis-Felipe-Q-Noguiera-landscape-2.jpg?fit=3000%2C2120");
+  height: 300px;
+  background-color: pink;
+  background-size: cover;
+  background-position: 50% 0%;
+  background-repeat: no-repeat;
+  margin: auto;
+}
+
+.box3{
+  background-image: url("https://static.wixstatic.com/media/dde27e_71e4a6e9dd644a06b87dc4ce92e21af3~mv2.jpg/v1/fill/w_596,h_424,al_c,q_80,usm_0.66_1.00_0.01/lisa2.webp");
+  height: 300px;
+  background-color: pink;
+  background-size: cover;
+  background-position: 50% 0%;
+  background-repeat: no-repeat;
+  margin: auto;
+}
+
+.box4{
+  background-image: url("https://bucket.mn2s.com/wp-content/uploads/2019/04/11175632/Burna-Boy-MN2S.png");
+  height: 300px;
+  background-color: pink;
+  background-size: cover;
+  background-position: 50% 0%;
+  background-repeat: no-repeat;
+  margin: auto;
+}
+
+.video{
+  margin-left: 150px;
+}
+
 .section1{
   float: left;
   width: 100%;
+  font-family: "Roboto", sans-serif;
   background-color: black;
   text-align: center;
   padding: 50px 10px;
- 
 }
+
 .section1 .content{
   float: left;
   width: 100%;
@@ -96,8 +177,8 @@ h2,p{
   width: 25%;
   float: left;
   padding: 0px 10px;
-
 }
+
 .section1 .content .gallery .box{
  background-color: rgb(43, 43, 43);
  font-style: 30px;
@@ -105,13 +186,16 @@ h2,p{
  padding: 60px 15px;
 
 }
+
 .desc{
+  font-family: "Roboto", sans-serif;
   padding:15px;
   background-color: rgb(131, 131, 131);
   text-align: left;
 }
 
 .section{
+  font-family: "Roboto", sans-serif;
   display: inline-flex;
   flex-direction: row;
   justify-content: space-evenly;
@@ -119,25 +203,52 @@ h2,p{
   margin-bottom: 0px;
 }
 
+.bigTitles{
+  font-family: "Roboto", sans-serif;
+  color:black;
+  text-transform: uppercase;
+  font-size: 3em;
+  font-family: "Roboto", sans-serif;
+  font-weight: 900;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: rgb(255, 255, 255);
+}
+
+.largeTitle{
+  font-family: "Roboto", sans-serif;
+  color:white;
+  font-size: 2em;
+  text-transform: uppercase;
+  text-align: right;
+  margin-bottom: 10px;
+}
+
 .text{
+  font-family: "Roboto", sans-serif;
   text-align: left;
   padding-right: 30px;
   margin-top: 0px;
 }
 
 .textTwo{
+  font-family: "Roboto", sans-serif;
   text-align: right;
   padding-left: 30px;
 }
+
 .para{
+  font-family: "Roboto", sans-serif;
   font-size: 1.5em;
 }
+
 footer{
   background-color: grey;
-  font-size: 13.5px;
+  font-size: 23px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
   height: 20px;
   width: 100%;
+  color: white;
   text-align: left;
 }
-
 
