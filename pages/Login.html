@@ -3,40 +3,56 @@
     <head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <title>Sign In</title>
+        <title></title>
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="../CSS/Login.css">
     </head>
-
     <body>
 
         <!-- This is the Back to Previous Page Button  -->
 
-        <div class="back">
+        <div id="backbtn">
             <a href="../Landing-Page.html">Back to Previous Page</a>
         </div>
 
         <!-- This is the Login Code -->
 
         <h1 class="heading">LOG INTO PANGEA RECORDS</h1>
+        
+        <div class="form">
 
-            <input type="text" placeholder="Username" name="" value=""> <br>
+            <input type="text" name="name" autocomplete="off" required>
+            <label for="name" class="label-name">
+                <span class="content-name">Username</span>
+            </label>
+        </div>
 
-            <input type="password" placeholder="Password" name="" value=""> <br>
+        <div class="form">
 
-            <a class="Button" href="../Landing-Page.html"><button type="submit">Login</button></a>
-            
+            <input type="password" name="name" autocomplete="off" required>
+            <label for="name" class="label-name">
+                <span class="content-name">Password</span>
+            </label>
+        </div>
+        
+        <Form class="login" action="Login.html" method="post">
+                <input type="submit" name="" value="Login">
+        </Form>
+        
         <!-- This is the Nav Help Bar -->
 
-                <header>
-                    <nav>
-                        <ul>
-                            <li><a href="#">Create an Account</a></li>
-                            <li><a href="#">Recover Account</a></li>
-                            <li><a target="_blank" href="https://accounts.google.com/signin/v2/identifier?flowName=GlifWebSignIn&flowEntry=ServiceLogin">Sign in with Google</a></li>
-                        </ul>
-                    </nav>
-                </header>
+        <header>
+            <div id="navbar">
+                <nav>
+                    <ul>
+                        <li><a target="_blank" href="https://accounts.google.com/signup/v2/webcreateaccount?hl=en&flowName=GlifWebSignIn&flowEntry=SignUp">Create an Account</a></li>
+                        <li><a target="_blank" href="https://accounts.google.com/signin/v2/recoveryidentifier?flowName=GlifWebSignIn&flowEntry=ServiceLogin">Recover Account</a></li>
+                        <li><a target="_blank" href="https://accounts.google.com/signin/v2/identifier?flowName=GlifWebSignIn&flowEntry=ServiceLogin">Sign in with Google</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+
     </body>
 </html>
