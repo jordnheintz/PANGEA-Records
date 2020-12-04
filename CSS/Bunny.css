@@ -280,7 +280,7 @@ header{
     
     .banner {
       width: 95%;
-       background-image: url("https://cdn3.pitchfork.com/longform/976/badbunnyheader.jpg");
+       background-image: url("https://cdn3.pitchfork.com/longform/976/badbunnyheader.jpg"); 
        height: 400px;
        background-color: pink;
        background-size: cover;
